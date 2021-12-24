@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+    <title>Counter</title>
+</head>
+<body>
+    <h1 class=>Counter</h1>
+    <p class="count">{{session['count']}} Visits!</p>
+    <div class ="buttons">
+        <a href="/" class="increment-button">Click Me!!!</a>
+        <a href="/destroy_session" class="reset-btn">Reset the Counter!</a>
+        <a href="/add_two" class= "add-two-button">Add two!!</a>
+    </div>
+</body>
+</html>

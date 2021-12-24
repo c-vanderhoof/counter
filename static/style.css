@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.count {
+    font-size: xx-large;
+    margin: 10px;
+    padding: 3px;
+    display:flex;
+    justify-content: center
+}
+
+.buttons {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
